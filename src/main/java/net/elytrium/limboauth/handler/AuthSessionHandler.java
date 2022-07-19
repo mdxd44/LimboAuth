@@ -120,7 +120,7 @@ public class AuthSessionHandler implements LimboSessionHandler {
     this.player = player;
     this.ip = this.proxyPlayer.getRemoteAddress().getAddress().getHostAddress();
 
-    this.player.disableFalling();
+    //this.player.disableFalling();
 
     if (this.playerInfo == null) {
       try {
